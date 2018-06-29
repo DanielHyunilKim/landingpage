@@ -1,0 +1,215 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background: white;
+  border-bottom: : solid;
+  border-right: solid;
+  border-left: solid;
+  border-width: thin;
+  border-color: gainsboro;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+.dropcontent a {
+  padding: 5px;
+  display: block;
+}
+
+.dropdown:hover .dropcontent {
+  display: block;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: inherit;
+}
+
+nav {
+  color: gray;
+}
+
+nav a{
+  padding: 10px;
+  font-weight: 600px;
+}
+
+nav a:hover {
+  color: black;
+  transition-delay: 0.05s;
+}
+
+input {
+  border: 0;
+  margin: 2px;
+}
+
+.input:after{
+  content: "→";
+}
+
+.search {
+  border: solid;
+  border-color: black;
+  border-width: thin;
+  width: 190px;
+  height: 38px;
+}
+
+input[type=text] {
+  outline: none;
+  border-color: black;
+  border-width: 1px;
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.categories {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+  position: sticky; top: 0px;
+  background-color: white;
+}
+
+.makered {
+  color: crimson;
+}
+
+.sale {
+  background-color: #D4DEDB;
+  color: #D55826;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.featurebox {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+}
+
+.feature {
+  max-width: 400px;
+  max-height: 800px;
+}
+
+.feature img {
+  max-width: 400px;
+  max-height: 800px;
+}
+
+.small {
+  display: inline-block;
+}
+
+.small img {
+  max-width: 200px;
+  max-height: 300px;
+  margin: 5px;
+}
+
+.seemore {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.vlist li {
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+footer {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.footlinks li {
+  display: block;
+  color: gray;
+}
+
+button {
+  font: inherit;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  background: white;
+  border-color: black;
+  align-self: center;
+}
